@@ -1,0 +1,9 @@
+ <script>
+        $(".top-message").hide();
+        $(".top").hover(function(){
+            $(".top-message").stop().slideUp(500);
+        });
+  </script>
+
+・スライドアップが反映されない
+・スクロール時の要素が表示されたタイミングは同取得するのか
